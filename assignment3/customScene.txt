@@ -1,0 +1,26 @@
+view
+eye 35. 35. 30.
+center 0. 0. 0.
+viewup 0. 0. 1.
+light
+type directional ambient .1 .1 .1
+color 1. 1. 1. position 10. 10. 10.
+object OBJfiles/customScene/Table.obj
+shader BLINN_PHONG
+s 0.25 0.25 0.25
+rx 270 ry 180
+t 0 -20 0
+object OBJfiles/customScene/benz1.obj
+shader BLINN_PHONG
+s 0.25 0.25 0.25
+rx 90
+t 10 5 3
+object OBJfiles/customScene/knight.obj
+shader BLINN_PHONG
+t 40 0 0
+s 0.30 0.30 0.30
+object OBJfiles/customScene/sofa.obj
+shader BLINN_PHONG
+s 0.08 0.08 0.08
+rx 90
+t 20 -15 0
